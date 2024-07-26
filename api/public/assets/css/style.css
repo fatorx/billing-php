@@ -1,0 +1,64 @@
+.header-profile-user {
+    width: 30px;
+    height: 30px;
+}
+.fs11 {
+    font-size: 11px;
+}
+.fs12 {
+    font-size: 12px;
+}
+.fs13 {
+    font-size: 13px;
+}
+.fs14 {
+    font-size: 14px;
+}
+.fs15 {
+    font-size: 15px;
+}
+.fs16 {
+    font-size: 16px;
+}
+.login-btn{
+    background-color: #0d6efd;
+    color: #fff;
+    border-color: #0d6efd;
+}
+.register-btn{
+    background-color: #0d6efd;
+    color: #fff;
+    border-color: #0d6efd;
+}
+.edit-btn:hover{
+    background-color: #0d6efd;
+    color: #fff;
+    border-color: #0d6efd;
+}
+.delete-btn:hover{
+    background-color: #fd0d1d;
+    color: #fff;
+    border-color: #fd0d1d;
+}
+.add-more-btn{
+    background-color: #0d6efd;
+    color: #fff;
+    border-color: #0d6efd;
+}
+.delete-todo-btn{
+    background-color: #fd0d1d;
+    color: #fff;
+    border-color: #fd0d1d;
+}
+input::placeholder{
+    color: #d0cbcb !important;
+}
+@media (max-width: 768px) {
+    .dropdown-menu[data-bs-popper] {
+        position: absolute;
+        top: 100%;
+        right: 0 !important;
+        left: unset;
+        margin-top: var(--bs-dropdown-spacer);
+    }
+}
