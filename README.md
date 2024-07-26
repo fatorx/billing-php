@@ -36,7 +36,7 @@ Add permissions to folder data (MySQL and RabbitMQ) and api/data (logs, storage 
 chmod -R 755 data
 ```
 ```shell script
-and
+chmod -R 755 api/storage
 ```
 
 Mount the environment based in docker-compose.yml.
