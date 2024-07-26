@@ -33,8 +33,10 @@ cp .env.dist .env
 
 Add permissions to folder data (MySQL and RabbitMQ) and api/data (logs, storage files), this is where the persistence files will be kept.
 ```shell script
-chmod 755 data
-chmod 755 api/data
+chmod -R 755 data
+```
+```shell script
+and
 ```
 
 Mount the environment based in docker-compose.yml.

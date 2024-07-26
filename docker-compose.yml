@@ -18,8 +18,8 @@ services:
       - php-fpm
       - php-files
       - php-line
-#      - php-invoice
-#      - php-mail
+      - php-invoice
+      - php-mail
 
   php-fpm:
     build: docker/php-fpm
